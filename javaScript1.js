@@ -1,6 +1,6 @@
 
 
-if ( window.location.pathname === '/Users/darshpatel/Documents/A3_DR892704/index.html') {
+if ( window.location.pathname === 'index.html') {
   window.addEventListener('load', function() {
     alert('Welcome to my website!');
   });
@@ -68,7 +68,7 @@ timeButton.addEventListener('click', updateTimeDisplay);
 
 /*Reference taken from W3Schools*/
 
-  const images = ["/Users/darshpatel/Documents/A3_DR892704/Images/skywallpaper.jpg", "/Users/darshpatel/Documents/A3_DR892704/Images/Sunrise.jpeg" ];
+  const images = ["skywallpaper.jpg", "Sunrise.jpeg" ];
   let currentImageIndex = 0;
   const imageElement = document.getElementById("myImage");
 
