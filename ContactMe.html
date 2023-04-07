@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Head Block- Here we set up the title and include a fav icon for the website, explained in detail in the ReadMe file.-->
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/x-icon" href="Images/Favicon1.png">
+    <!--attaching the css style sheet.-->
+    <link rel="stylesheet" href="../A3_DR892704/styles1.css">
+  </head>
+  <body>
+    <header class="wallpaperP3">
+      <!--In the header field, we include the wallpaper for this particular webpage and set appropriate dimensions-->
+      <nav class="menu">
+        <img src="Images/menuFavicon.png" alt="Logo" width="50" height="50">
+        <ul>
+          <li><a href="../A3_DR892704/index.html">Home</a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="../A3_DR892704/Education_WorkExp.html"
+              >Education and Work experience</a>
+
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="../A3_DR892704/ContactMe.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img class="photoP3"
+        src="Images/palm_trees.jpeg"
+        alt="Contact us picture"
+      >
+    </header>
+    <div class="color-buttons">
+      <button id="normal-mode">Normal Mode</button>
+      <button id="dark-mode">Dark Mode</button>
+      <button id="high-contrast-mode">High Contrast Mode</button>
+    </div>
+    <div id="mainP3">
+      
+      <!--In the main block I have included my side bar, the text to be added on th website,an audio file as well as a Video embedded in the webpage on Computer Science.
+                I also have included a Contact me section with an external link and an image link in the form of a table and a form for feedback. More info in readme file.-->
+
+      <div class="textP3">
+        <!--This container contains all the text to be included on the webpage.-->
+        <h2 id="greetingP3">But that's not all!</h2>
+
+        <p>
+          I've also included some of my personal interests, such as my favorite
+          audio and a video that I think sums up why I'm so passionate about
+          this field.
+        </p>
+
+        <p>
+          I believe that computer science is about more than just technical
+          knowledge - it's about creativity, problem-solving, and making a
+          positive impact on the world. That's why I've included a contact
+          section and feedback form on this page
+        </p>
+
+        <p>
+          I want to hear from you! Whether you're a fellow computer science
+          enthusiast or just curious about this field, please feel free to reach
+          out and share your thoughts.
+        </p>
+
+        <h3>I look forward to hearing from you!</h3>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <div class="youtubevideo">
+        <!--This container contains the video embedded from youtube and a text explanation.-->
+        <h2>Video on Computer Science:</h2>
+        <br>
+        <br>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/k9WqpQp8VSU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+        </iframe>
+        <p class="videotext">
+          I really like this video as it gives out a lot of useful information
+          on someone who is just starting out and I do know that every beginner
+          would really appreciate this video
+        </p>
+      </div>
+      <div class="audiofile">
+        <!--This container includes the audio track with control options and some added text.-->
+        <br>
+        <br>
+        <h2>Audio Track:</h2>
+
+        <p class="audiotext">
+          Here is an audio file of one of my favourite title tracks.
+          It is by Hans Zimmer and is used in the movie Interstellar.
+        </p>
+        <audio controls>
+          <source src="audio/InterstellarAudioFile.mp3">
+        </audio>
+        <br>
+        <br>
+      </div>
+
+      <div class="contactme">
+        <!--This container includes the contact me section included as a table for a clean look. Table includes links to specific contact methods and a image file-->
+        <h2>Contact:</h2>
+
+        <table class="contactmetable">
+          <tr>
+            <td class="emailcontact">Email:</td>
+
+            <td>
+              <a href="mailto:pateldarsh4941@egmail.com"
+                ><img
+                  src="Images/gmailIcon.png"
+                  alt="Gmail icon"
+                  width="70"
+                  height="70"
+              ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="linkedincontact">Linked in:</td>
+
+            <td>
+              <a href="https://linkedin.com/in/dp7700"
+                ><img
+                  src="Images/linkedinicon.png"
+                  alt="Linked in Icon"
+                  width="70"
+                  height="70"
+               ></a>
+            </td>
+          </tr>
+          <tr>
+            <td class="resume">Resume:</td>
+            <td><a href="Images/resume.jpg">Resume</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="feedbackform">
+        <!--This container contains a feedback form for users. The form takes user's first name, last name and feedback.-->
+        <h2>Feedback:</h2>
+        <form class="form">
+          <label for="first-name" class="firstname">First Name:</label>
+          <input type="text" id="first-name" name="first-name"><br><br>
+
+          <label for="last-name" class="lastname">Last Name:</label>
+          <input type="text" id="last-name" name="last-name"><br><br>
+
+          <label for="feedback" class="feedback">Feedback:</label><br>
+          <textarea id="feedback" name="feedback" maxlength="5000"></textarea
+          ><br><br>
+
+          <input type="submit" value="Submit" class="submit">
+        </form>
+      </div>
+    </div>
+    <footer class="footerp3">
+      <p>&copy; Copyrights 2023 Darsh patel</p>
+    </footer>
+    <script src="../A3_DR892704/javaScript1.js"></script>
+  </body>
+</html>

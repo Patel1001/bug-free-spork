@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Head Block- Here we set up the title and include a fav icon for the website, explained in detail in the ReadMe file.-->
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="icon" type="image/x-icon" href="Images/Favicon1.png">
+    <!--attaching the css style sheet.-->
+    <link rel="stylesheet" href="../A3_DR892704/styles1.css">
+  </head>
+
+  <body>
+    <header>
+      <!--here we set up a menu bar for our homepage using a flexbox and an unordered list.-->
+      <nav class="menu">
+        <img src="Images/menuFavicon.png" alt="Logo" width="50" height="50">
+        <ul>
+          <li><a href="../A3_DR892704/index.html">Home</a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="../A3_DR892704/Education_WorkExp.html"
+              >Education and Work experience</a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="../A3_DR892704/ContactMe.html">Contact</a>
+          </li>
+        </ul>
+        <br>
+        <br>
+        <br>
+      </nav>
+    </header>
+
+    <aside class="wallpaperP1">
+      <!-- Aside Block-Including a profile picture as part of my format. Detailed info in the readMe file-->
+
+      <img id="myImage"
+        src="Images/skywallpaper.jpg"
+        alt="Sky Wallpaper"
+
+      >
+    </aside>
+
+    <div id="mainsectionp1">
+      <div class="color-buttons">
+        <button id="normal-mode">Normal Mode</button>
+        <button id="dark-mode">Dark Mode</button>
+        <button id="high-contrast-mode">High Contrast Mode</button>
+      </div>
+      <!-- The main section contains the page headers and the content to be written on the webapage and also the Introduction Video I made of myself
+        .Detailed info in the readMe file-->
+
+      <h2 id="greetingP1">Hi! I am Darsh.</h2>
+
+      <p class="text">
+        I am a first-year student of Computer Science at Dalhousie
+        University,Halifax with intermediate skills in java, python and html. I
+        aspire to become a web developer in the coming years.
+        <br>
+        <br>
+        <br>
+        A little bit about me. I have a Diploma in Finance and have 4+ years in
+        Customer Service and Finance. I have been in Canada for 5 years and
+        aspire to go into the analytics field and hence my interest towards
+        Computer Science.
+        <br>
+        <br>
+        On this website, we will go through various aspects like my past
+        education, past work experience and future career aspirations .But first
+        let's look at a short Introduction Video I made for myself.
+      </p>
+
+      <!--This section contains My introduction Video with control autoplay and mute features.Detailed info in the readMe file-->
+      <h2 id="introduction">Introduction Video:</h2>
+
+      <video controls autoplay muted >
+        <source src="Videos/Introduction_Video.mp4">
+      </video>
+      <h2 id="photoGalleryTitle">Photo Gallery:</h2>
+      <button id="hidePhotosButton">Hide Photos</button>
+      <div class="gallery">
+        <div class="row">
+          <div class="column">
+            <img src="Images/photoGallery1.jpg " alt=" Photo Gallery -Image 1">
+          </div>
+          <div class="column">
+            <img src="Images/photoGallery2.jpg" alt="Photo Gallery -Image 2">
+          </div>
+          <div class="column">
+            <img src="Images/photoGallery3.jpeg" alt="Photo Gallery -Image 3">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Images/photoGallery4.jpeg" alt="Photo Gallery -Image 4">
+          </div>
+          <div class="column">
+            <img src="Images/photoGallery5.jpeg" alt="Photo Gallery -Image 5">
+          </div>
+          <div class="column">
+            <img src="Images/photoGallery6.avif" alt="Photo Gallery -Image 6">
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <button id="time-button">What is the time?</button>
+      <div id="time-display"></div>
+      <br>
+      <br>
+
+
+      
+    </div>
+
+    <footer class="homepageFooter">
+      <!--The footer Contains the Copyrights information for the webpage.-->
+      <p>&copy; Copyrights 2023 Darsh patel</p>
+    </footer>
+    <script src="../A3_DR892704/javaScript1.js"></script>
+  </body>
+</html>
