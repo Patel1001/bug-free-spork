@@ -1,6 +1,6 @@
 
 
-if ( window.location.pathname == "index.html") {
+if ( window.location.pathname === "index.html") {
   window.addEventListener('load', function() {
     alert('Welcome to my website!');
   });
