@@ -1,10 +1,11 @@
 
 
 if ( window.location.pathname.endsWith("index.html")) {
-  window.addEventListener('load', function() {
     alert('Welcome to my website!');
-  });
 }
+window.addEventListener('load', function() {
+  // Code to be executed on page load goes here
+});
 
 const menuBar = document.querySelector('nav.menu');
 // function setButtonColors() {
