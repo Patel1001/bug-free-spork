@@ -18,7 +18,7 @@ Styling: The CSS file (styles1.css) is used to style the website, including diff
 
 Interactive Elements: Utilizes JavaScript (javaScript1.js) for interactive elements such as hiding the photo gallery, displaying the current time, and cycling through images.
 
-Concepts and Technologies Used
+ ## Concepts and Technologies Used
 
 
 HTML: Used for structuring the content of each webpage (index.html, Education_WorkExp.html, ContactMe.html).
@@ -29,7 +29,7 @@ JavaScript: Implementing interactive features, including mode changes, photo gal
 
 Embedded Media: Utilizes video (Introduction_Video.mp4), audio (InterstellarAudioFile.mp3), and an embedded YouTube video (k9WqpQp8VSU) to enhance user experience.
 
-Instructions
+## Instructions
 
 Navigation: Use the navigation bar to explore different sections.
 
@@ -37,7 +37,7 @@ Modes: Experiment with different modes (normal, dark, high contrast) using the b
 
 Interactive Elements: Try hiding the photo gallery, checking the current time, and exploring the embedded media.
 
-Notes
+## Notes
 
 Contact: Users can reach out to Darsh via email or LinkedIn provided in the Contact section (ContactMe.html).
 Feedback: Visitors can also submit feedback through the form available in the Contact section. (this was only needed for visulization therefore the feedback isn't actually sent anywhere when submit is pressed)
